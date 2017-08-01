@@ -17,6 +17,10 @@ header {
   height: 69px;
   width: 100%;
   align-items: center;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  z-index: 5;
 }
 
 footer {
@@ -28,6 +32,8 @@ footer {
   display: flex;
   align-items: center;
   margin: auto;
+  position: relative;
+  margin-top: 70px;
 }
 
 .logo {
@@ -53,7 +59,7 @@ footer {
 }
 
 .tea h4 {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 #nav li {
@@ -72,13 +78,14 @@ footer {
 #section2 .container {
   width: 1000px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
 }
 
 #section2 img {
   width: 300px;
   height: 200px;
+  padding: 10px;
 }
 
 #section3 {
@@ -91,10 +98,11 @@ footer {
 #section3 .container {
   justify-content: space-around;
   align-items: center;
+  margin-top: 15px;
 }
 
 #section3 h2 {
-  margin-bottom: 15px;
+  padding-top: 75px;
 }
 
 #section4 {
